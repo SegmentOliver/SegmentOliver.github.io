@@ -52,6 +52,10 @@
             analytics.track('destination submitted', user, function() {
                 window.location.href = "";
             });
+            analytics.group('1200', {
+                name: 'destination goers'
+            });
+            analytics.alias('5678')
           }
     </script>
 </body> 
