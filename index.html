@@ -30,6 +30,8 @@
     <br><br>
     <input name="submit" type="submit" value="submit"/>
 </form> 
+    <button onclick="analytics.track('destination filtered')">Filtered</button>
+    <button onclick="analytics.track('destination sent')">Not filtered</button>
     <!--Identify and track script -->
     <script type="text/javascript">
           function identify(e){
